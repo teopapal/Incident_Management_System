@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Καταχώρηση Συμβάντος</title>
+    <link rel="stylesheet" href="css/guest.css">
+    <script src="js/admin.js"></script>
+    <script src="js/Incident.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Καταχώρηση Συμβάντος</h1>
+    <form>
+        <label for="phone">Κινητό Τηλέφωνο:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="description">Περιγραφή Συμβάντος:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="incident_type">User Type:</label>
+        <select id="incident_type" name="incident_type" required>
+            <option value="fire">Fire</option>
+            <option value="accident">Accident</option>
+        </select><br><br>
+
+        <button type="submit" onclick="incident_registration_guest(); return false;">Καταχώρηση</button>
+    </form>
+
+    <div id="incident_results" style="margin-top: 20px;"></div>
+    <form>
+        <h2>Send Message</h2>
+        <label for="des">Description:</label>
+        <label for="des"></label><textarea id="des" name="description" required></textarea>
+
+        <label for="incident_id">Incident ID:</label>
+        <textarea id="incident_id" name="incident_id" required></textarea>
+
+
+        <button id="register_message" type="submit" onclick="send_message(); return false;">Register</button>
+    </form>
+    <div id="message_results" style="margin-top: 20px; background: lightyellow; padding: 10px;"></div>
+    <div id="participants" style="margin-top: 20px; background: lightblue; padding: 10px;"></div>
+
+</div>
+<footer>
+    <p>Find more resources and information:</p>
+    <ul>
+        <li><a href="https://forest-fire.emergency.copernicus.eu/" target="_blank">Fire Predictions</a></li>
+        <li><a href="https://www.bafe.org.uk/" target="_blank">Similar Sites</a></li>
+    </ul>
+    &copy; 2025 Soguma Website. All Rights Reserved.
+</footer>
+</body>
+
+</html>

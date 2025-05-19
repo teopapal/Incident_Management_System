@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Καταχώρηση Συμβάντος</title>
+    <link rel="stylesheet" href="css/guest.css">
+    <script src="js/ajax.js"></script>
+    <script src="js/Incident.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Καταχώρηση Συμβάντος</h1>
+    <form>
+        <label for="phone">Κινητό Τηλέφωνο:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="description">Περιγραφή Συμβάντος:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="incident_type">User Type:</label>
+        <select id="incident_type" name="incident_type" required>
+            <option value="fire">Fire</option>
+            <option value="accident">Accident</option>
+        </select><br><br>
+
+        <button type="submit" onclick="incident_registration_guest(); return false;">Καταχώρηση</button>
+    </form>
+
+    <div id="incident_results" style="margin-top: 20px;">
+    </div>
+
+</div>
+</body>
+</html>
