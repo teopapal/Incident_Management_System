@@ -52,7 +52,6 @@ The system facilitates real-time reporting, response coordination, and communica
 - **Visualization**: Google Charts
 - **Mapping**: OpenStreetMaps or Google Maps API
 - **Distance Calculation**: TrueWay Matrix API (via RapidAPI)
-- **ChatGPT Integration**: AI-powered Q&A
 
 ---
 
@@ -61,9 +60,6 @@ The system facilitates real-time reporting, response coordination, and communica
 - Real-time status updates for incidents (`submitted`, `running`, `finished`, `fake`)
 - Role-based message boards
 - Geolocation & distance-based notifications
-- Historical incident search (bonus)
-- Social sharing (bonus)
-- Role-specific sound notifications (bonus)
 - Full MVC architecture and responsive design
 
 ---
