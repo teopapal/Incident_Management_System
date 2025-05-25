@@ -10,7 +10,7 @@ The system facilitates real-time reporting, response coordination, and communica
 - Simulate a real-world emergency response system using **modern web technologies**
 - Allow **multiple user roles** (Admins, Registered Users, Volunteers, Guests)
 - Provide **real-time updates**, notifications, and **interactive visualizations**
-- Utilize **REST APIs**, **AJAX**, and **external services** (maps, ChatGPT, charts)
+- Utilize **REST APIs**, **AJAX**, and **external services** (maps)
 
 ---
 
